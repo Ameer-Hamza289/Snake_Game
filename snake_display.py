@@ -3,6 +3,7 @@ Enhanced Snake Game Display Client
 Receives game data from Arduino via Serial and displays it
 """
 
+import utils.transport
 import utils.session
 import pygame
 import serial
